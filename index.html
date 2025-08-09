@@ -43,30 +43,96 @@
 
 
     <main>
-        <section class="bg-[#49BBBD]">
-            <div class="container mx-auto">
-                <div class="pb-[379px] pt-[335px]">
-                    <h1 class="text-[white] text-[54px] font-blod ">
-                        <span class="text-[#F48C06] text-[54px] font-blod">Studying</span> Online is now <br> much
+        <section class="bg-[#2EBBC0] text-white py-12 relative overflow-hidden">
+            <div class="container mx-auto px-4 sm:px-6 flex flex-col lg:flex-row items-center">
+
+                <!-- Chap tomon matn -->
+                <div class="flex-1 text-center lg:text-left">
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+                        <span class="text-orange-500">Studying</span> Online is now<br class="hidden sm:block">much
                         easier
                     </h1>
-                    <p class="mt-[34px] text-[white] text-[24px] font-normal leading-160%">
-                        TOTC is an interesting platform that will teach <br> you in more an interactive way
+                    <p class="mt-4 text-base sm:text-lg text-white/90 max-w-md mx-auto lg:mx-0">
+                        TOTC is an interesting platform that will teach you in more an interactive way
                     </p>
-                    <div class="mt-[52px] flex items-center">
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start mt-6 gap-4">
                         <button
-                            class="w-[220px] h-[80px] bg-[rgba(255,255,255,0.2)] flex items-center justify-center text-white text-[22px] rounded-[80px] hover:bg-white hover:text-[#5B5B5B] transition duration-500 ease-in-out">
+                            class="bg-white/30 text-white font-semibold px-6 py-3 rounded-full hover:bg-white/40 transition w-full sm:w-auto">
                             Join for free
                         </button>
-                        <div class="h-[80px] w-[80] flex items-center">
-                            <a href="./pages/checkoutpage.html"><img
-                                    class="mt-[52px] w-full transform hover:scale-110 transition duration-500 ease-in-out"
-                                    src="./assets/images/home/play-btn.png" alt="play"></a>
-                            <p class="text-[24px] text-[#252641] font-normal">Watch how it works</p>
-                        </div>
+                        <button class="flex items-center space-x-2">
+                            <div class="rounded-full flex items-center justify-center">
+                                <img src="./assets/images/home/play-btn.png" alt="Play"
+                                    class="w-10 h-10 sm:w-[100px] sm:h-[100px]">
+                            </div>
+                            <span class="text-black text-sm sm:text-base">Watch how it works</span>
+                        </button>
                     </div>
                 </div>
+
+                <!-- O'ng tomon -->
+                <div class="flex-1 relative mt-12 lg:mt-0">
+
+                    <!-- Dekorativ rasm -->
+                    <img src="./assets/images/home/decor.png" alt="Decor"
+                        class="absolute -top-4 sm:top-4 right-4 sm:right-8 w-10 sm:w-12 z-20">
+
+                    <!-- Qiz rasmi -->
+                    <img src="./assets/images/home/school-student.png" alt="Student"
+                        class="w-56 sm:w-72 md:w-80 lg:w-full max-w-sm mx-auto relative z-0">
+
+                    <!-- Assisted Student -->
+                    <div
+                        class="absolute top-6 sm:top-12 -left-4 sm:-left-8 bg-white text-gray-800 px-3 sm:px-4 py-2 rounded-xl flex items-center space-x-3 shadow-lg z-20 text-xs sm:text-sm">
+                        <div class="p-2 sm:p-[10px] rounded-[8px] bg-[#23BDEE]">
+                            <img src="./assets/images/home/calendar 1.png" alt="Calendar" class="w-5 h-5 sm:w-6 sm:h-6">
+                        </div>
+                        <div>
+                            <p class="font-bold text-base sm:text-lg">250k</p>
+                            <p class="text-gray-500 text-xs">Assisted Student</p>
+                        </div>
+                    </div>
+
+                    <!-- Congratulations -->
+                    <div
+                        class="absolute bottom-16 sm:bottom-20 right-0 bg-white px-3 sm:px-4 py-2 sm:py-3 rounded-xl shadow-lg z-20 w-48 sm:w-auto">
+                        <div class="flex items-center space-x-2 sm:space-x-3">
+                            <div class="p-2 sm:p-[10px] rounded-[8px] bg-[#F88C3D]">
+                                <img src="./assets/images/home/email 2 1.png" alt="Mail" class="w-5 h-5 sm:w-6 sm:h-6">
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800 text-sm sm:text-base">Congratulations</p>
+                                <p class="text-xs sm:text-sm text-gray-500">Your admission completed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- User Experience Class -->
+                    <div
+                        class="absolute -bottom-4 sm:bottom-0 left-1/2 lg:left-0 transform -translate-x-1/2 lg:translate-x-0 bg-white px-3 sm:px-4 py-2 sm:py-3 rounded-xl shadow-lg flex items-center justify-between w-60 sm:w-64 z-20">
+                        <div class="flex items-center space-x-3">
+                            <img src="./assets/images/home/teacher.png" alt="Teacher"
+                                class="w-8 h-8 sm:w-10 sm:h-10 rounded-full">
+                            <div>
+                                <p class="font-semibold text-gray-800 text-sm sm:text-base">User Experience Class</p>
+                                <p class="text-xs sm:text-sm text-gray-500">Today at 12.00 PM</p>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-pink-500 text-white px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm hover:bg-pink-600">
+                            Join Now
+                        </button>
+                    </div>
+
+                </div>
+            </div>
         </section>
+
+
+
+
+
         <section>
             <div class="container mx-auto mt-[80px] px-4">
                 <h1 class="text-center text-[32px] md:text-[48px] text-[#010514] font-bold leading-[130%]">
@@ -140,6 +206,130 @@
             </div>
 
         </section>
+        <section class="bg-white flex flex-col items-center justify-center max-w-[1470px] h-auto mx-auto px-4 py-20">
+            <!-- Title -->
+            <h2 class="text-[28px] sm:text-[32px] lg:text-[36px] font-bold text-center leading-tight max-w-[501px]">
+                <span class="text-[#2F327D]">All-In-One </span>
+                <span class="text-[#23BDEE]">Cloud Software.</span>
+            </h2>
+
+            <!-- Paragraph -->
+            <p
+                class="text-[#696984] text-center mt-[16px] text-[16px] sm:text-[18px] lg:text-[24px] leading-relaxed max-w-[837px]">
+                TOTC is one powerful online software suite that combines all the tools
+                needed to run a successful school or office.
+            </p>
+
+            <!-- Cards -->
+            <div
+                class="mt-[40px] grid gap-[20px] sm:gap-[30px] lg:gap-[40px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Card -->
+                <div
+                    class="w-full sm:w-[350px] lg:w-[450px] h-auto bg-white shadow-[0_4px_60px_rgba(0,0,0,0.1)] rounded-[20px] flex flex-col items-center px-[20px] sm:px-[30px] lg:px-[40px] pt-[40px] sm:pt-[50px] lg:pt-[60px] transition-transform duration-300 hover:scale-105 hover:shadow-[0_4px_60px_rgba(0,0,0,0.2)] mx-auto">
+                    <div
+                        class="w-[56px] h-[56px] sm:w-[64px] sm:h-[64px] lg:w-[72px] lg:h-[72px] rounded-full flex items-center justify-center bg-[#3F87F5] -mt-[80px] sm:-mt-[90px] lg:-mt-[100px]">
+                        <img src="./assets/images/home/icon-1.png" alt="icon">
+                    </div>
+                    <h3
+                        class="text-[#2F327D] text-[20px] sm:text-[24px] lg:text-[30px] font-medium mt-[60px] sm:mt-[80px] lg:mt-[122px] text-center">
+                        Online Billing, Invoicing, & Contracts
+                    </h3>
+                    <p
+                        class="text-[#696984] text-center mt-[16px] sm:mt-[20px] lg:mt-[24px] text-[14px] sm:text-[16px] lg:text-[20px] leading-relaxed">
+                        Simple and secure control of your organization’s financial and legal transactions. Send
+                        customized invoices and contracts.
+                    </p>
+                </div>
+
+                <!-- Card -->
+                <div
+                    class="w-full sm:w-[350px] lg:w-[450px] h-auto bg-white shadow-[0_4px_60px_rgba(0,0,0,0.1)] rounded-[20px] flex flex-col items-center px-[20px] sm:px-[30px] lg:px-[40px] pt-[40px] sm:pt-[50px] lg:pt-[60px] transition-transform duration-300 hover:scale-105 hover:shadow-[0_4px_60px_rgba(0,0,0,0.2)] mx-auto">
+                    <div
+                        class="w-[56px] h-[56px] sm:w-[64px] sm:h-[64px] lg:w-[72px] lg:h-[72px] rounded-full flex items-center justify-center bg-[#23BDEE] -mt-[80px] sm:-mt-[90px] lg:-mt-[100px]">
+                        <img src="./assets/images/home/icon-2.png" alt="icon">
+                    </div>
+                    <h3
+                        class="text-[#2F327D] text-[20px] sm:text-[24px] lg:text-[30px] font-medium mt-[60px] sm:mt-[80px] lg:mt-[122px] text-center">
+                        Easy Scheduling & Attendance Tracking
+                    </h3>
+                    <p
+                        class="text-[#696984] text-center mt-[16px] sm:mt-[20px] lg:mt-[24px] text-[14px] sm:text-[16px] lg:text-[20px] leading-relaxed">
+                        Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of
+                        student attendance.
+                    </p>
+                </div>
+
+                <!-- Card -->
+                <div
+                    class="w-full sm:w-[350px] lg:w-[450px] h-auto bg-white shadow-[0_4px_60px_rgba(0,0,0,0.1)] rounded-[20px] flex flex-col items-center px-[20px] sm:px-[30px] lg:px-[40px] pt-[40px] sm:pt-[50px] lg:pt-[60px] transition-transform duration-300 hover:scale-105 hover:shadow-[0_4px_60px_rgba(0,0,0,0.2)] mx-auto">
+                    <div
+                        class="w-[56px] h-[56px] sm:w-[64px] sm:h-[64px] lg:w-[72px] lg:h-[72px] rounded-full flex items-center justify-center bg-[#49BBBD] -mt-[80px] sm:-mt-[90px] lg:-mt-[100px]">
+                        <img src="./assets/images/home/icon-3.png" alt="icon">
+                    </div>
+                    <h3
+                        class="text-[#2F327D] text-[20px] sm:text-[24px] lg:text-[30px] font-medium mt-[60px] sm:mt-[80px] lg:mt-[122px] text-center">
+                        Customer Tracking
+                    </h3>
+                    <p
+                        class="text-[#696984] text-center mt-[16px] sm:mt-[20px] lg:mt-[24px] text-[14px] sm:text-[16px] lg:text-[20px] leading-relaxed">
+                        Automate and track emails to individuals or groups. Skilline’s built-in system helps organize
+                        your organization.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="py-[80px] flex flex-col items-center">
+            <!-- Title -->
+            <h2 class="text-[clamp(24px,3vw,36px)] font-bold text-center px-4 leading-snug">
+                <span class="text-[#2F327D]">What is </span>
+                <span class="text-[#23BDEE]">TOTC?</span>
+            </h2>
+
+            <!-- Paragraph -->
+            <p
+                class="text-[#696984] text-center mt-[20px] max-w-[900px] text-[clamp(14px,2vw,20px)] leading-[1.8] px-4">
+                TOTC is a platform that allows educators to create online classes whereby they can
+                store the course materials online; manage assignments, quizzes and exams; monitor due dates;
+                grade results and provide students with feedback all in one place.
+            </p>
+
+            <!-- Cards -->
+            <div class="flex flex-wrap justify-center gap-[clamp(12px,2vw,30px)] mt-[60px] w-full px-4">
+                <!-- Card 1 -->
+                <div class="group relative w-full sm:w-[48%] md:w-[560px] max-w-[560px] rounded-[20px] overflow-hidden bg-cover bg-center transition-transform duration-500 ease-in-out hover:scale-[1.03]"
+                    style="background-image: url('./assets/images/home/qizbola.png'); aspect-ratio: 560 / 330;">
+                    <div
+                        class="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-500 flex flex-col items-center justify-center gap-[clamp(10px,2vw,20px)] px-4">
+                        <h3 class="text-white text-[clamp(14px,2vw,24px)] font-bold text-center">FOR INSTRUCTORS</h3>
+                        <button
+                            class="border border-white text-white px-[clamp(12px,2vw,30px)] py-[clamp(6px,1.5vw,12px)] rounded-[40px] text-[clamp(12px,1.8vw,18px)] font-medium transition duration-300 ease-in-out hover:bg-[#23BDEE]/80 hover:text-white">
+                            Start a class today
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="group relative w-full sm:w-[48%] md:w-[560px] max-w-[560px] rounded-[20px] overflow-hidden bg-cover bg-center transition-transform duration-500 ease-in-out hover:scale-[1.03]"
+                    style="background-image: url('./assets/images/home/qizbola2.png'); aspect-ratio: 560 / 330;">
+                    <div
+                        class="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-500 flex flex-col items-center justify-center gap-[clamp(10px,2vw,20px)] px-4">
+                        <h3 class="text-white text-[clamp(14px,2vw,24px)] font-bold text-center">FOR STUDENTS</h3>
+                        <button
+                            class="border border-white text-white px-[clamp(12px,2vw,30px)] py-[clamp(6px,1.5vw,12px)] rounded-[40px] text-[clamp(12px,1.8vw,18px)] font-medium transition duration-300 ease-in-out hover:bg-[#23BDEE]/80 hover:text-white">
+                            Enter access code
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
     </main>
 
 
